@@ -1,0 +1,49 @@
+
+/* BOTONES DE ACCESO DIRECTO*/
+.botonera {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 0.15rem;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+
+
+/* Estilos para el formulario de registro */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para la tabla de pacientes registrados */
+.tabla-pacientes {
+    margin-top: 2rem;
+}
+
+.tabla-pacientes table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-pacientes th, .tabla-pacientes td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.tabla-pacientes th {
+    background-color: #f0f0f0;
+}
+
+.tabla-pacientes th:first-child,
+.tabla-pacientes td:first-child {
+    text-align: left;
+}

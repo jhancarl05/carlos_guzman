@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Menú Responsivo</title>
+    <link rel="stylesheet" href="mi_estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 sidebar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarResponsive"> <!-- Añadido 'show' para que aparezca abierto -->
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Opción 1</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Opción 2</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Opción 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9 content">
+                <h1>Contenido Principal</h1>
+                
+                <div class="botonera">
+                    <button class="btn btn-info">Clientes</button>
+                    <button class="btn btn-warning">Usuarios</button>
+                    <button class="btn btn-success">Mensajes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="mi_script.js"></script>
+</body>
+</html>
